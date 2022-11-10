@@ -1,0 +1,43 @@
+@keyframes blinking-animation {
+    from {background-color: #ffc8dd;}
+    to {background-color: #cdb4db;}
+  }
+
+.card {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: #cdb4db;
+    border-top: 5px solid #2a9d8f;
+    border-bottom: 5px solid #2a9d8f;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #9b5de5;
+    animation-name: blinking-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+.demo {
+    display: flex;
+    justify-content: center;
+}
+
+
+.info {
+    text-align: center;
+    color: #2b2839;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.pfp-img {
+    width: 150px;
+    border-radius: 100%;
+    
+}
+
